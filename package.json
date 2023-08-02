@@ -1,8 +1,8 @@
 {
-  "homepage": "https://burhan-ahmed.github.io/Little-Lemon",
   "name": "little-lemon",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://burhan-ahmed.github.io/Little-Lemon/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
