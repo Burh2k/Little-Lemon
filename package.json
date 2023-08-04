@@ -18,7 +18,7 @@
     "react-icons": "^4.10.1",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.14.2",
-    "tailwindcss": "^3.3.3"
+    "sass": "^1.64.2"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
@@ -31,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "gh-pages": "^5.0.0",
+    "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
   }
 }

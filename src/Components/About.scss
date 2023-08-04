@@ -1,0 +1,47 @@
+.about {
+    height: 53vh;
+    width: 80%;
+    margin: 6vh auto 15vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    >div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2vh 0;
+
+        >div {
+            width: 60%;
+
+            >h1 {
+                text-align: center;
+                >em {
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+            }
+
+            >p {
+                font-size: 1.5rem;
+                font-weight: light;
+                text-align: center;
+                line-height: 25px;
+                word-spacing: 0px;
+            }
+        }
+        >.image1{
+            height: 30vh;
+            width: 9vw;
+            // margin-left: 100px;
+        }
+        >.image2{
+            height: 25vh;
+            width: 22vw;
+            // margin-right: 80px;
+        }
+        
+    }
+}
