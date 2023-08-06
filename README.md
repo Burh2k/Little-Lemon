@@ -15,6 +15,9 @@ React + Vite
 ## Use the Following Command to run the project on VS code
 `npm run dev`
 
+## Points to Ponder
+1. if else does not exit in jsx, thus use ternary operator because jsx is not a programming language but an syntax extension for xml
+
 
 ### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

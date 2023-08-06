@@ -1,4 +1,5 @@
 import React from "react";
+import Anime from "./Animation";
 
 function Canva({ name, photo }) {
     return (
@@ -16,19 +17,21 @@ function Canva({ name, photo }) {
 
 export default function Menu() {
     return (
-        <div className="my-16">
-            <div className="flex justify-center" >
-            <h1 className="mb-24 pb-4 px-8 text-4xl border border-black rounded-full"
-            style={{ backgroundColor: "#808F8B" }} >
-                Menu
-            </h1>
+        <Anime>
+            <div className="my-16">
+                <div className="flex justify-center" >
+                    <h1 className="mb-24 pb-4 px-8 text-4xl border border-black rounded-full"
+                        style={{ backgroundColor: "#808F8B" }} >
+                        Menu
+                    </h1>
+                </div>
+                <div className="flex justify-evenly mb-44">
+                    <Canva name="Sea Food" photo="src/assets/imgs/seafood.jpg" />
+                    <Canva name="Dessert" photo="src/assets/imgs/dessert.jpg" />
+                    <Canva name="Fast Food" photo="src/assets/imgs/fast_food.jpg" />
+                    <Canva name="Frozen" photo="src/assets/imgs/frozen.jpg" />
+                </div>
             </div>
-            <div className="flex justify-evenly mb-44">
-                <Canva name="Sea Food" photo="src/assets/imgs/seafood.jpg" />
-                <Canva name="Dessert" photo="src/assets/imgs/dessert.jpg" />
-                <Canva name="Fast Food" photo="src/assets/imgs/fast_food.jpg" />
-                <Canva name="Frozen" photo="src/assets/imgs/frozen.jpg" />
-            </div>
-        </div>
+        </Anime>
     )
 }
