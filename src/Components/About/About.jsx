@@ -1,5 +1,5 @@
 import './About.scss';
-import Anime from "./Animation";
+import Anime from "../Animation";
 
 const Card = ({ title, description }) => {
   return (

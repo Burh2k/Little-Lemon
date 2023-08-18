@@ -1,5 +1,5 @@
 import './reservation.scss'
-import Anime from './Animation';
+import Anime from '../Animation';
 
 export default function Reservation() {
   return (
@@ -8,9 +8,9 @@ export default function Reservation() {
         <div className='heading'>
           <p>Book a Table</p>
         </div>
-        <div>
+        <div >
           <div>
-            <form>
+            <form >
               <input className="focus:outline-none" type="text" placeholder='Full Name' />
               <input className="focus:outline-none" type="email" placeholder='Email' />
               <input className="focus:outline-none" type="text" placeholder='Reservation Date (dd-mm)' />

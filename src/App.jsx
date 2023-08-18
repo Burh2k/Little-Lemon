@@ -9,9 +9,9 @@ import Home_sec from './Components/Home_section';
 import Navbar from "./Components/Header.jsx";
 import Menu from "./Components/Menu.jsx";
 import Review from "./Components/Review.jsx";
-import Reservation from "./Components/Reservation.jsx";
-import About from "./Components/About.jsx";
-
+import Reservation from "./Components/Reservation/Reservation.jsx";
+import About from "./Components/About/About.jsx";
+import Pagefooter from "./Components/Footer";
 
 export default function App() {
   return (
@@ -26,6 +26,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/customer_reviews" element={<Review />} />
         </Routes>
+        <Pagefooter />
       </Router>
     </>
   );
