@@ -1,5 +1,7 @@
 # Little Lemon
-A Restaurant Website made as a Practice Project
+A Restaurant Website Made as a Practice Project <br>
+Landing Page of Website![lemon](https://github.com/Burhan-Ahmed/Little-Lemon/assets/92679045/24594da3-72e8-44e5-89e6-1f4f28c7d2f0)
+
 ## Tool
 VS Code
 ## Languages
